@@ -43,7 +43,7 @@ let name = ['Pallab', 'Shasmito', 'Joy', 'Ahor'];
 function tinyFriend(friend) {
 
     let small = friend[0].length;
-    let smallest;
+    let smallest = friend[0];
     for (let i = 1; i < friend.length; i++) {
         if (friend[i].length < small) {
             small = friend[i].length;
